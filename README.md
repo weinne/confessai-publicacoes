@@ -4,9 +4,10 @@ Site estático preparado para GitHub Pages.
 
 ## Publicação
 
-1. Criar uma organização ou conta no GitHub com o nome desejado.
-2. Criar o repositório `confessai-publicacoes.github.io`.
-3. Enviar o conteúdo desta pasta para a raiz do repositório.
-4. Em **Settings → Pages**, publicar a partir da branch principal.
+O código está no repositório privado `weinne/confessai-publicacoes`, branch `main`.
+
+Para publicar gratuitamente, torne o repositório público e, em **Settings → Pages**, selecione **Deploy from a branch**, `main` e `/ (root)`. O endereço esperado é:
+
+`https://weinne.github.io/confessai-publicacoes/`
 
 Não há dependências, banco de dados ou etapa de compilação.
