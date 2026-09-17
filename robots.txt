@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://weinne.github.io/confessai-publicacoes/sitemap.xml
