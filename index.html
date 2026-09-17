@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clássicos cristãos e recursos bíblicos para uma fé histórica, pastoral e discernente.">
+  <meta name="theme-color" content="#0e1b18">
+  <meta property="og:title" content="Confessai Publicações">
+  <meta property="og:description" content="Clássicos cristãos para uma fé viva.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/brand/avatar-monograma.png">
+  <title>Confessai Publicações</title>
+  <link rel="icon" href="assets/brand/avatar-monograma.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#catalogo">Ir para o catálogo</a>
+  <header class="site-header">
+    <a class="brand-mini" href="#inicio" aria-label="Confessai Publicações — início">
+      <img src="assets/brand/avatar-monograma.png" alt="">
+      <span>Confessai</span>
+    </a>
+    <nav aria-label="Navegação principal">
+      <a href="#colecoes">Coleções</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+    <a class="header-cta" href="#catalogo">Conheça os livros</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">CONFESSAI PUBLICAÇÕES</p>
+        <h1>Clássicos cristãos para uma fé viva.</h1>
+        <p class="hero-lede">Traduções cuidadosas e recursos bíblicos que aproximam a tradição cristã histórica da vida, da igreja e das perguntas do presente.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#catalogo">Explorar o catálogo</a>
+          <a class="button button-ghost" href="#sobre">Conheça a editora</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>14</dt><dd>títulos publicados</dd></div>
+          <div><dt>2</dt><dd>coleções editoriais</dd></div>
+          <div><dt>100%</dt><dd>em português</dd></div>
+        </dl>
+      </div>
+      <div class="hero-art" aria-label="Seleção de capas da Confessai Publicações">
+        <img class="cover cover-main" src="assets/covers/B0GX2ZW2X8.jpg" alt="Capa de O mistério da providência">
+        <img class="cover cover-left" src="assets/covers/B0H5TMYK42.jpg" alt="Capa de Evangelho Distorcido">
+        <img class="cover cover-right" src="assets/covers/B0H61CRYX2.jpg" alt="Capa de Por que Deus se fez homem">
+        <span class="hero-seal"><img src="assets/brand/selo-institucional.png" alt=""></span>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <p>“A verdade antiga não precisa parecer distante.”</p>
+    </section>
+
+    <section class="section collections" id="colecoes">
+      <div class="section-heading">
+        <p class="eyebrow">LINHAS EDITORIAIS</p>
+        <h2>Livros para ler, estudar e viver</h2>
+      </div>
+      <div class="collection-grid">
+        <article class="collection-card pastoral">
+          <span>01</span>
+          <h3>Clássicos pastorais</h3>
+          <p>Consolo, providência, paz e transformação do coração em autores que atravessaram séculos.</p>
+          <button type="button" data-filter-link="clássicos pastorais">Ver coleção</button>
+        </article>
+        <article class="collection-card estudo">
+          <span>02</span>
+          <h3>Clássicos para estudo</h3>
+          <p>Textos fundamentais de teologia e filosofia cristã apresentados em português claro e cuidadoso.</p>
+          <button type="button" data-filter-link="clássicos cristãos para estudo">Ver coleção</button>
+        </article>
+        <article class="collection-card contemporaneo">
+          <span>03</span>
+          <h3>Fé e discernimento</h3>
+          <p>Obras contemporâneas sobre tradição, doutrina, seitas, heresias e vida da igreja.</p>
+          <button type="button" data-filter-link="avulsos">Ver títulos</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section catalog" id="catalogo">
+      <div class="section-heading catalog-heading">
+        <div>
+          <p class="eyebrow">NOSSO CATÁLOGO</p>
+          <h2>Encontre sua próxima leitura</h2>
+        </div>
+        <label class="search">
+          <span class="sr-only">Pesquisar no catálogo</span>
+          <input id="catalog-search" type="search" placeholder="Título ou autor">
+        </label>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar catálogo">
+        <button class="active" type="button" data-filter="todos">Todos</button>
+        <button type="button" data-filter="clássicos pastorais">Pastorais</button>
+        <button type="button" data-filter="clássicos cristãos para estudo">Para estudo</button>
+        <button type="button" data-filter="avulsos">Fé e igreja</button>
+      </div>
+      <div class="book-grid" id="book-grid" aria-live="polite"></div>
+      <p class="empty-state" id="empty-state" hidden>Nenhum livro encontrado.</p>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="about-mark"><img src="assets/brand/selo-institucional.png" alt=""></div>
+      <div class="about-copy">
+        <p class="eyebrow">SOBRE A CONFESSAI</p>
+        <h2>Tradição sem poeira. Profundidade sem distância.</h2>
+        <p>A Confessai Publicações recupera clássicos cristãos e produz recursos contemporâneos para leitores que desejam compreender melhor a fé recebida pela igreja.</p>
+        <p>Nosso trabalho une tradução, revisão e apresentação editorial para tornar obras históricas acessíveis sem diluir sua força.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <p class="eyebrow">ACOMPANHE A CONFESSAI</p>
+      <h2>Novos livros, leituras e conversas sobre a fé cristã.</h2>
+      <p>Em breve no Instagram. O catálogo completo já está disponível aqui.</p>
+      <a class="button button-light" href="#catalogo">Explorar os livros</a>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/brand/assinatura-principal.png" alt="Confessai Publicações">
+    <p>Clássicos cristãos e recursos bíblicos para uma fé histórica, pastoral e discernente.</p>
+    <p class="copyright">© <span id="year"></span> Confessai Publicações</p>
+  </footer>
+
+  <dialog id="book-dialog">
+    <button class="dialog-close" type="button" aria-label="Fechar">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+  <script src="app.js" defer></script>
+</body>
+</html>
