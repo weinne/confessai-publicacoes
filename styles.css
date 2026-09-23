@@ -129,10 +129,15 @@ nav a { text-decoration: none; font-size: .88rem; font-weight: 500; }
 .contact h2 { max-width: 960px; margin: 0 auto 1.5rem; }
 .contact > p:not(.eyebrow) { color: var(--ivory-200); }
 .button-light { background: var(--ivory-100); color: var(--green-950); margin-top: 1rem; }
+.contact-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; margin-top: 1.5rem; }
+.contact-actions .button { margin-top: 0; }
+.button-outline-light { border: 1px solid rgba(246,240,229,.55); color: var(--ivory-100); }
+.button-outline-light:hover { background: rgba(246,240,229,.08); }
 
 footer { padding: 4rem 1.2rem; text-align: center; background: var(--ivory-100); }
 footer img { width: min(420px, 80vw); margin: 0 auto 1rem; mix-blend-mode: multiply; }
 footer p { max-width: 600px; margin: .5rem auto; color: var(--muted); }
+footer a { color: var(--green-950); }
 .copyright { font-size: .75rem; padding-top: 1rem; }
 
 dialog { width: min(900px, calc(100vw - 2rem)); max-height: calc(100vh - 2rem); border: 0; padding: 0; background: var(--ivory-50); color: var(--ink); box-shadow: 0 30px 100px rgba(0,0,0,.35); }
